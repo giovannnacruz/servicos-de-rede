@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços de Rede </title>
+</head>
+<div class="corpo">
+<body> 
+   
+    <link rel="stylesheet" href="estilos.css">
+    <h1 align="center">Serviço de redes: DNS DHCP FTP HTTP WEBSERVER.</h1>
+    
+    <ul>
+        <li><a href="#OSI">MODELO OSI</a></li>
+        <li><a href="#TCP">TCP-IP</a></li>
+        <li><a href="#UDP">UDP</a></li>
+        <li><a href="#FTP">FTP</a></li>
+        <li><a href="#DNS">DNS</a></li>
+        <li><a href="#DHCP">DHCP</a></li> 
+        <li><a href="#HTTP">HTTP/HTTPS</a></li> 
+        <li><a href="#WEBSERVER">WEBSERVER</a></li>
+    </ul>
+
+    <main>
+        <div class="packet"> 
+<h1> Cisco Packet</h1>
+<p>No programa Cisco Packet Tracer criei uma rede com servidores DNS,DHCP e alguns computadores para hospedar meu site na internet e acessa-lo diretamente por um domínio ao invés de um IP. </p>
+<img  height="530" width="840" src="img/portfolio.png"> 
+<p>Para saber mais como funciona esses servidores e alguns outros serviços de rede, continue lendo!!!</p>
+</main>
+
+
+
+
+
+
+
+        <main>
+            <section id="OSI">
+                <div class="city">
+
+                    <h2 align="center">O que é o modelo OSI?</h2>
+                    <p>
+                        O modelo de interconexão de sistemas abertos (OSI) é um modelo conceitual criado pela Organização Internacional de Normalização que permite que diversos sistemas de comunicação se comuniquem usando protocolos padronizados. Em poucas palavras, o OSI fornece um padrão para que diferentes sistemas de computadores possam se comunicar. </p>
+                        
+                     <p>  O modelo OSI pode ser considerado a linguagem universal da rede de computadores. Ele se baseia no conceito de dividir um sistema de comunicação em sete camadas abstratas, empilhadas umas sobre as outras. </p>
+                     <p>  O modelo OSI é importante por que embora a internet moderna não siga estritamente o modelo OSI (segue mais de perto um conjunto mais simples de protocolos da internet), o modelo ainda é muito útil para solucionar problemas de rede. Seja uma pessoa que não consegue conectar seu notebook na internet ou um site que está desativado para milhares de usuários, o modelo OSI pode ajudar a resolver o problema e isolar a fonte do problema. Se o problema puder ser reduzido a uma camada específica do modelo, muito trabalho desnecessário poderá ser evitado.</p>
+                    <p><img  width="560" height="315" src="img/osi2.jpg">
+        </main>
+        </section>
+
+        <main>
+        <div class="ring">
+            <section id="TCP">
+                <h2 align="center">TCP- IP</h2>
+                <p>O endereço TCP se refere a algo que faz toda a definição de como aplicações conseguem criar canais de comunicação através da rede. Também auxilia na quebra em pedaços de uma mensagem que será posteriormente reconstruída antes de chegar a seu destino </p>
+                <P>Uma boa analogia é compará-lo a alguém que recebe as peças e, em seguida, monta o quebra-cabeça por completo. </P>    
+                <P> Já o IP é o que define o endereço e o caminho do pacote de dados, ou seja, ele garante que as informações cheguem a seu destino correto. Ele é basicamente o “carteiro”, que recebe o item e o checa para ter certeza de que estará no local de seu objetivo.</P>   
+                <P> Tudo isso a partir do endereço IP (IP address). </P>   
+                <P> Sendo assim, é correto afirmar que TCP/IP é um conjunto de protocolos e um modelo de comunicação de rede. Ele serve para, principalmente, viabilizar a troca de informações entre ORIGEM e DESTINO.</p>
+                <p><img width="560" height="315" src="img/modelo-TCP-IP.png">
+        </div>
+    </section>
+        </main>
+
+        <section id="UDP">
+            <div class="paper">
+                <h2 align="center" > O que é o UDP ? </h2>
+            <p>O User Datagram Protocol (UDP) é um protocolo de Internet mais simples e sem conexão, no qual os serviços de verificação e recuperação de erros não são necessários. Com o UDP, não há sobrecarga para abrir, manter ou encerrar uma conexão — os dados são continuamente enviados para o destinatário, quer ele os receba ou não.</p>
+            <p>O protocolo UDP funciona de forma semelhante ao TCP, mas elimina todo o material de verificação de erros. Toda a comunicação de ida e volta introduz latência, tornando as coisas mais lentas.
+            Quando um aplicativo usa UDP, os pacotes são enviados apenas para o destinatário. O remetente não espera para ter certeza de que o destinatário recebeu o pacote. Se o destinatário perder alguns pacotes UDP aqui e ali, o remetente não os reenviará. Perder toda essa sobrecarga significa que os dispositivos podem se comunicar mais rapidamente.               
+             <p> UDP é usado quando a velocidade é desejável e a correção de erros não é necessária. Por exemplo, ele é frequentemente usado para transmissões ao vivo e jogos online. Digamos que você esteja assistindo a um stream de vídeo ao vivo, que geralmente é transmitido usando UDP em vez de TCP. O servidor apenas envia um fluxo constante de pacotes UDP para os computadores que estão assistindo. Se você perder a conexão por alguns segundos, o vídeo pode congelar ou ficar trêmulo por um momento e, em seguida, pular para o trecho atual da transmissão. Se ocorrer uma pequena perda de pacote, o vídeo ou áudio pode ficar distorcido por um momento, pois o vídeo continua a ser reproduzido sem os dados ausentes.</p>   
+
+            </div>
+        </section>
+        </main>
+
+        <main>
+            <section id="FTP">
+                <div class="ftp">
+                <h1 align="center" >O que é FTP?</h1>
+                <p> FTP (File Transfer Protocol) é um protocolo de rede para a transmissão de arquivos entre computadores. Dentro do conjunto TCP/IP (Transmission Control Protocol/Internet Protocol), ele é um protocolo da camada de aplicação para o download e upload de arquivos em conexões do tipo cliente/servidor. </p>
+                <h1 align="center" >Os servidores FTP</h1>
+                <p>O FTP é um dos protocolos mais simples e antigos ainda em uso para a transferência de dados, e assim como o protocolo Simplex, o FTP também canais individuais para a comunicação de dados do tipo cliente/servidor.</p> 
+                <p>  Um servidor FTP é um computador dedicado para transferir arquivos e facilitar o compartilhamento remoto de dados via internet entre um servidor (remetente) e um computador cliente (destinatário) através de uma conexão baseada no protocolo FTP. </p>   
+                  Esse tipo de servidor geralmente oferece ao dispositivo cliente acesso a um diretório com vários subdiretórios. Deste modo, os usuários se conectam a estes servidores com o status de “clientes FTP”.      
+                  Existem dois tipos de servidores que utilizam esse protocolo, o público e o privado. Basicamente, o que os diferencia é a necessidade de um login e senha para ter acesso aos arquivos. </p>
+                <h1 align="center" >Como funciona o FTP?</h1>
+                 <p>O protocolo FTP é usado para transferências de arquivos entre um servidor, sistema de armazenamento ou outro dispositivo através de uma conexão de rede. Ele utiliza dois canais básicos para operar, um de comando e um de dados. </p> 
+                 <p> O canal de comando é o responsável por carregar as informações sobre a tarefa em si, ou seja, quais arquivos devem ser acessados e etc. O canal de dados é responsável por transferir os dados reais do arquivo entre os dispositivos. </p>    
+                  De uma forma simplificada, ao fazer um upload de arquivos, dados são transferidos de um computador para um servidor. Já ao fazer um download, os arquivos são transferidos de um servidor para o seu computador pessoal.   
+                 <p> O TCP/IP (Transmission Control Protocol/Internet Protocol) é a linguagem que a internet usa para executar esses comandos e transferir arquivos através do FTP.</p>
+                </section>
+         </main>
+
+         <main>
+            <section id="DNS"> 
+               <div class="DNS">
+               <h1 align="center" > O que é DNS?</h1>
+               <p>A sigla DNS (em inglês, Domain Name System). Trata-se do Sistema de Nomes de Domínio. Há quem o defina como uma lista telefônica de toda a internet. É o DNS que traduz endereços IP (Internet Protocol) em nomes de sites.
+                É o DNS que permite que você digite o nome de um domínio na barra de endereços, em vez de uma longa sequência de números difícil de decorar. </p>
+                <p>  Em termos simples, o Sistema de Nomes de Domínio (DNS) é uma coleção de bancos de dados que traduz nomes de host para endereços únicos de IP, existem duas formas de acessar um site na internet: digitando o nome de domínio que você já está acostumado ou digitando o endereço IP da sua hospedagem.</p>
+                <p>Digitar a sequência de números no navegador toda vez que você quiser visitar um site não faz sentido, então DNS faz o trabalho de tradução desse endereço em palavras, que formam a URL que você conhece, no endereço IP do servidor.</p>
+               <p> Cada nome de domínio tem um único número IP e você não verá mais de um site com a mesma URL. Porém, nomes de domínios diferentes podem encaminhar você de um site para outro. Basta que o responsável compre o direito de usar todos ao mesmo tempo.</p>  
+               <p> Não importa se digitar tecnoblog.net ou tecnoblog.com.br, ambos levarão você ao à versão “.net”. Isso acontece porque o “.com.br” direciona para o “.net”, que leva ao IP.</p>
+            </section>
+         </main>
+
+<main>
+    <section id="DHCP">
+    <div class="DHCP">
+        <h1 align="center">O que é DHCP? </h1>
+            <p>O protocolo de configuração dinâmica de host, ou simplesmente DHCP, é o nome de um servidor TCP/IP que oferece serviços de configuração dinâmica em redes. Sem que o usuário perceba, ao se conectar em uma rede, esse serviço fornece automaticamente endereço IP, máscara de sub-rede, Gateway Padrão, endereço IP de um ou mais servidores DNS/WINS e sufixos de pesquisa do DNS, para que o dispositivo do usuário possa utilizar a rede e obter acesso aos recursos disponibilizados nela e acesso à internet, se houver.</p>
+      <h2  align="center" >Qual a importância do DHCP?</h2>
+            <p>O DHCP é um protocolo muito importante para o funcionamento da maioria das redes atuais e é uma ferramenta essencial para os administradores de rede, por permitir configurar grandes quantidades de dispositivos em rede, sem qualquer configuração manual. </p>
+      <h1  align="center" >Como funciona o DHCP?</h1>
+      <P>Resumidamente, o protocolo DHCP trabalha da seguinte forma: um dispositivo com suporte ao protocolo envia uma requisição DHCP e os servidores DHCP que capturarem este pacote irão responder (se o cliente se enquadrar em alguns critérios) com um pacote com informações como um endereço IP, máscara de rede e outros dados opcionais, como servidores de DNS e o gateway padrão.</P>
+<h1>Tipos de protocolo DHCP</h1>
+<li>Modo automático</li>
+<p>É o mais simples e possibilita administrar um grande parque de máquinas na rede sem muitas complicações, já que destina uma grande quantidade de endereços de IP de mesma faixa para ser utilizada na rede em questão.</p>
+<li>Modo dinâmico</li>
+<p>Já o modo dinâmico é idêntico ao automático, exceto pelo fato dele determinar o tempo que dispositivo terá acesso a rede de acordo com as necessidades do administrador.</p>
+<li>Modo Manual </li>
+<p>Por fim, o modo manual permite alocar um endereço IP atrelado ao MAC (Medium Access Control) de cada placa de rede, forçando cada computador a utilizar apenas o endereço IP configurado. Este recurso é bastante útil quando uma máquina possua um endereço IP fixo ou o administrador precisa ter um controle maior sobre determinados endereço e máquinas da rede.
+    Mas, o trabalho do DHCP não se resume apenas em entregar informações aos novos hosts da rede. Com um recurso poderoso como o DHCP, dependendo de como o administrador configura ele, é possível até mesmo restringir o acesso a rede e a Internet para determinadas máquinas.</p>
+</main>
+</section>
+
+<main>
+    <section id="HTTP"> 
+        <div class="HTTP"> 
+<h1>O que é o protocolo HTTP?</h1>
+<p>O protocolo de transferência de hipertexto (HTTP – HyperText Transfer Protocol) é o protocolo padrão para a web. Por meio dele os navegadores requisitam as páginas da web e as recebem. Dessa forma, o HTTP define, entre outras formalidades, como são requisitadas as páginas da web, como são enviados os dados que o usuário insere em formulários e como o servidor envia mensagens de erro para o navegador do usuário.</p>
+ <h1>O que é o protocolo HTTPS?</h1>  
+<p>A maioria das explicações resume o HTTPS como um HTTP com o SSL (Secure Sockets Layer) ou, seu sucessor, o TLS (Transport Layer Security). TLS ou SSL são camadas de segurança que fornecem confidencialidade e integridade.</p>
+<p>De posse da chave pública, o usuário pode se comunicar com o servidor, garantindo que todas as mensagens enviadas para o servidor somente serão lidas pelo servidor, pois apenas o servidor possui a chave privada. Basta, para isso, que o navegador do usuário encripte todas as requisições e decripte as respostas recebidas com a chave pública do servidor.</p>
+<h1>Qual é mais seguro HTTPS ou HTTP?</h1>
+<p>Com o uso do HTTPS, que é o HTTP seguro, adiciona-se alguns princípios de segurança, como confidencialidade, integridade e autenticação. Por confidencialidade, entende-se que a mensagem só é lida pelo destinatário real da mensagem. A integridade representa que a mensagem não foi alterada e o princípio da autenticação prova que o servidor é realmente quem diz ser. Por isso, o HTTPS é o mais seguro. </p>
+    </section>
+</main>
+
+<main>
+    <section id="WEBSERVER"> 
+        <div class="WEBSERVER"> 
+<h1>O que é um web server?</h1>
+<p>Um web server é um sistema computacional que hospeda e fornece acesso aos conteúdos e aplicações através da internet. Geralmente contratado como um serviço, esse servidor recebe e processa as solicitações feitas por navegadores através de protocolos de rede como o HTTP ou HTTPS.</p>
+ <p>Esse acesso geralmente é feito por computadores e dispositivos móveis através de solicitações feitas por browsers, ou seja, softwares navegadores como o Google Chrome e Microsoft Edge.</p>
+<P>Essas solicitações incluem o endereço do conteúdo desejado, como por exemplo uma página HTML, um arquivo de áudio, vídeo ou imagem.
+<p> Os servidores web são responsáveis por hospedar sites, aplicativos, serviços de e-mail, armazenamento em nuvem e outros serviços online.</P>
+ <h1>Como funciona um servidor web?</h1>  
+<p>Ao receber uma solicitação de um servidor DNS, o servidor web processa a requisição, buscando o conteúdo solicitado no sistema de arquivos ou em um banco de dados.</p>
+<p>Em seguida, ele retorna a requisição com o conteúdo solicitado, que é enviado de volta para o navegador de que fez a solicitação.</p>
+<p>Além de entregar conteúdo estático como arquivos HTML ou imagens, os servidores web também podem executar scripts e aplicativos, como servidores de aplicativos ou servidores de banco de dados.Nesses casos, o servidor é responsável por executar o script ou aplicativo, processar a solicitação e enviar a resposta para o solicitante.</p>
+    </section>
+</main>
+    
+
+
+
+
+</body>
+</div>
+                </div
+        
